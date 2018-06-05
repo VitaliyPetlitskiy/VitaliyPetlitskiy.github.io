@@ -9,7 +9,7 @@ if(isset($_POST['submitcontact']))
 	$email=$_POST['email'];
 	$message=$_POST['message'];
 
-	$to = "youremail@gmail.com";
+	$to = "promod5@ukr.net";
 	$subject = "Zerotheme - Testing Contact Form";
 	$message = " Name: " . $name ."\r\n Email: " . $email . "\r\n Message:\r\n" . $message;
 	 
@@ -33,7 +33,7 @@ if(isset($_POST['submitcontact']))
     <!-- Basic Page Needs
   ================================================== -->
 	<meta charset="utf-8">
-	<title>zFurniture - Free Responsive Html5 Templates</title>
+	<title>Bolgarpartments</title>
 	<meta name="description" content="Free Responsive Html5 Css3 Templates | zerotheme.com">
 	<meta name="author" content="www.zerotheme.com">
 	
@@ -50,8 +50,7 @@ if(isset($_POST['submitcontact']))
 	<!-- Custom Fonts -->
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 	
-    <script src="js/jquery1111.min.js" type="text/javascript"></script>
-	<script src="js/script.js"></script>
+   
 	
 	<!--[if lt IE 8]>
        <div style=' clear: both; text-align:center; position: relative;'>
@@ -117,7 +116,7 @@ if(isset($_POST['submitcontact']))
 							<h1 class="entry-title">Contact Us</h1>
 							<div class="row">
 								<div class="col-1-3">
-									<div class="wrap-col">
+									<!-- <div class="wrap-col">
 										<span>SED UT PERSPICIATIS UNDE OMNIS ISTE NATUS ERROR SIT VOLUPTATEM ACCUSANTIUM DOLOREMQUE LAUDANTIUM, TOTAM REM APERIAM.</span>
 										<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque la udantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia.</p>
 										<p>JL.Kemacetan timur no.23. block.Q3<br>
@@ -125,7 +124,7 @@ if(isset($_POST['submitcontact']))
 										   <p>+6221 888 888 90 <br>
 											+6221 888 88891</p>
 										<p>info@yourdomain.com</p>
-									</div>
+									</div> -->
 								</div>
 								<div class="col-2-3">
 									<div class="wrap-col">
@@ -181,11 +180,11 @@ if(isset($_POST['submitcontact']))
 				<div class="col-1-2">
 					<div class="wrap-col">
 						<div class="copy-right">
-							<p>Copyright @ zFurniture - Designed by <a href="https://www.zerotheme.com" title="free website templates">ZEROTHEME</a></p>
+							<p>test <a href="https://www.zerotheme.com" title="free website templates"></a></p>
 						</div>
 					</div>
 				</div>
-				<div class="col-1-2">
+				<!-- <div class="col-1-2">
 					<div class="wrap-col">
 						<ul class="bottom-social f-right">
 							<li><a href="#"><i class="fa fa-twitter"></i></a></li>
@@ -196,12 +195,14 @@ if(isset($_POST['submitcontact']))
 						</ul>
 						<div class="clear"></div>
 					</div>
-				</div>
+				</div> -->
 			</div>
 		</div>
 	</div>
 </footer>
 
+ <script src="js/jquery1111.min.js" type="text/javascript"></script>
+	<script src="js/script.js"></script>
 <script type="text/javascript">
     $(function() {
 		if ($.browser.msie && $.browser.version.substr(0,1)<7)
