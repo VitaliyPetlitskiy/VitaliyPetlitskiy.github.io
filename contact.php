@@ -34,8 +34,8 @@ if(isset($_POST['submitcontact']))
   ================================================== -->
 	<meta charset="utf-8">
 	<title>Bolgarpartments</title>
-	<meta name="description" content="Free Responsive Html5 Css3 Templates | zerotheme.com">
-	<meta name="author" content="www.zerotheme.com">
+	<meta name="description" content="Free Responsive Html5 Css3 Templates | #">
+	<meta name="author" content="#">
 	
     <!-- Mobile Specific Metas
   ================================================== -->
@@ -50,8 +50,7 @@ if(isset($_POST['submitcontact']))
 	<!-- Custom Fonts -->
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 	
-   
-	
+    
 	<!--[if lt IE 8]>
        <div style=' clear: both; text-align:center; position: relative;'>
          <a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode">
@@ -72,34 +71,38 @@ if(isset($_POST['submitcontact']))
 <header >
 	<div class="zerogrid">
 		<div class="wrap-header">
-			<div class="logo t-center"><a href="index.html"><img src="images/logo.jpg"/></a></div>	
+			<div class="logo t-center"><a href="index.html"><img src="images/sea1.jpg"/></a></div>	
 			<div id='cssmenu' class="align-center">
 				<ul>
-				   <li class="active"><a href='index.html'><span>zFurniture</span></a></li>
-				   <li class=' has-sub'><a href='archive.html'><span>Category</span></a>
-					  <ul>
-						 <li class='has-sub'><a href='#'><span>Item 1</span></a>
-							<ul>
-							   <li><a href='#'><span>Sub Item</span></a></li>
-							   <li class='last'><a href='#'><span>Sub Item</span></a></li>
-							</ul>
-						 </li>
-						 <li class='has-sub'><a href='#'><span>Item 2</span></a>
-							<ul>
-							   <li><a href='#'><span>Sub Item</span></a></li>
-							   <li class='last'><a href='#'><span>Sub Item</span></a></li>
-							</ul>
-						 </li>
-					  </ul>
-				   </li>
-				   <li><a href='archive.html'><span>Gallery</span></a></li>
-				   <li><a href='single.html'><span>About</span></a></li>
-				   <li class='last'><a href='contact.html'><span>Contact</span></a></li>
+				   <li class="active"><a href='index.html'><span>Главная</span></a></li>
+				 <!--   <li class=' has-sub'><a href='archive.html'><span>Category</span></a>
+				 					  <ul>
+				 						 <li class='has-sub'><a href='#'><span>Item 1</span></a>
+				 							<ul>
+				 							   <li><a href='#'><span>Sub Item</span></a></li>
+				 							   <li class='last'><a href='#'><span>Sub Item</span></a></li>
+				 							</ul>
+				 						 </li>
+				 						 <li class='has-sub'><a href='#'><span>Item 2</span></a>
+				 							<ul>
+				 							   <li><a href='#'><span>Sub Item</span></a></li>
+				 							   <li class='last'><a href='#'><span>Sub Item</span></a></li>
+				 							</ul>
+				 						 </li>
+				 					  </ul>
+				 </li> -->
+				  <!--  <li><a href='archive.html'><span>Галерея</span></a></li> -->
+				   <li><a href='archive.html'><span>Про нас</span></a></li>
+				   <li class='last'><a href='contact.html'><span>Контакт</span></a></li>
 				</ul>
 			</div>
 		</div>
+		<div style="margin-bottom: 30px;" >
+			<img src="images/" alt="">
+		</div>
 	</div>
 </header>
+
 
 <section id="container">
 	<div class="zerogrid">
@@ -109,40 +112,49 @@ if(isset($_POST['submitcontact']))
 					<article>
 						<div class="art-header">
 							<div class="embed-container maps">
-								<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3164.289259162295!2d-120.7989351!3d37.5246781!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8091042b3386acd7%3A0x3b4a4cedc60363dd!2sMain+St%2C+Denair%2C+CA+95316%2C+Hoa+K%E1%BB%B3!5e0!3m2!1svi!2s!4v1434016649434" width="100%" height="450" frameborder="0" style="border:0"></iframe>
+
+								<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d23462.397648101563!2d27.702434125264187!3d42.686784921665655!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40a69f00e39bceaf%3A0x6322076aff73b0ae!2sPMG+Royal+Sun+Apartments!5e0!3m2!1sru!2sua!4v1528124310196" width="1198" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>
+<br><br>
+								<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2931.9558321395366!2d27.708962315467286!3d42.70465597916528!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40a69e364678b0f7%3A0xdcd8dee895cffa3a!2sCascadas!5e0!3m2!1sru!2sua!4v1528124497689" width="1198" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>
+
 							</div>
 						</div>
 						<div class="art-content">
-							<h1 class="entry-title">Contact Us</h1>
+							<h1 class="entry-title">Контакты</h1>
 							<div class="row">
 								<div class="col-1-3">
-									<!-- <div class="wrap-col">
-										<span>SED UT PERSPICIATIS UNDE OMNIS ISTE NATUS ERROR SIT VOLUPTATEM ACCUSANTIUM DOLOREMQUE LAUDANTIUM, TOTAM REM APERIAM.</span>
-										<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque la udantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia.</p>
-										<p>JL.Kemacetan timur no.23. block.Q3<br>
-											Jakarta-Indonesia</p>
-										   <p>+6221 888 888 90 <br>
-											+6221 888 88891</p>
-										<p>info@yourdomain.com</p>
-									</div> -->
+									<div class="wrap-col">
+										<span>3 апартамент . Семейный курортный отель Cascadas расположен на курорте Солнечный берег, всего в 9 минутах ходьбы от ближайшего пляжа. К услугам гостей 4 ресторана, 9 открытых бассейнов с барами у бассейна. На всей территории предоставляется бесплатный Wi-Fi.
+Студия-смарт семейного отеля Cascadas оснащена кондиционером, телевизором с плоским экраном с кабельными каналами, бесплатным wi-fi и стиральной машиной. В числе удобств кухонные принадлежности,посуда, холодильник, микроволновка,чайник, тостер, утюг, фен. Предоставляются постельное белье и полотенца.
+В отеле работает оздоровительный спа-центр с гидромассажем и паровой баней, а также фитнес-центр. Гости могут посетить тематический эко-парк с открытым кинотеатром и 2 мини-аквапарками. В парке ежедневно проводятся мероприятиями для детей. Здесь также можно покататься на пони. На территории обустроены помещения для проведения конференций.
+
+</span>
+										<p>Прогулка до торговой улицы с 2 гипермаркетами, аптекой и банкоматом занимает несколько минут. До международного аэропорта Бургас — 25 минут езды.</p>
+
+										<p>Адреса: СASCADAS 149 Chaika Street,<br>  
+										Cascadas Complex,<br> 
+										8240 Солнечный берег,<br> 
+										Болгария<br>
+											</p>
+										  
+											+38 (050) 412 89 00</p>
+										<p>promod5@ukr.net</p>
+									</div>
 								</div>
 								<div class="col-2-3">
 									<div class="wrap-col">
 										<div class="contact">
-											<!--Warning-->
-											<center><?php echo $text;?></center>
-											<!---->
 											<div id="contact_form">
 												<form name="form1" id="ff" method="post" action="contact.php">
 													<label class="row">
 														<div class="col-1-2">
 															<div class="wrap-col">
-																<input type="text" name="name" id="name" placeholder="Enter name" required="required" />
+																<input type="text" name="name" id="name" placeholder="Enter name" required="required"/>
 															</div>
 														</div>
 														<div class="col-1-2">
 															<div class="wrap-col">
-																<input type="email" name="email" id="email" placeholder="Enter email" required="required" />
+																<input type="email" name="email" id="email" placeholder="Enter email" required="required"/>
 															</div>
 														</div>
 													</label>
@@ -180,7 +192,7 @@ if(isset($_POST['submitcontact']))
 				<div class="col-1-2">
 					<div class="wrap-col">
 						<div class="copy-right">
-							<p>test <a href="https://www.zerotheme.com" title="free website templates"></a></p>
+							<p>Copyright @ Petlitskiy 2018<a href="#" title="free website templates"></a></p>
 						</div>
 					</div>
 				</div>
@@ -201,8 +213,9 @@ if(isset($_POST['submitcontact']))
 	</div>
 </footer>
 
- <script src="js/jquery1111.min.js" type="text/javascript"></script>
-	<script src="js/script.js"></script>
+<script src="js/jquery1111.min.js" type="text/javascript"></script>
+<script src="js/script.js"></script>
+	
 <script type="text/javascript">
     $(function() {
 		if ($.browser.msie && $.browser.version.substr(0,1)<7)
