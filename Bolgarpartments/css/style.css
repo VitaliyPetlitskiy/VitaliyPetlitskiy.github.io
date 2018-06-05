@@ -280,11 +280,10 @@ a.button-2:hover{background-color: rgba(0, 0, 0, 0.9);}
 	margin-bottom: 20px;
 }
 .zoom-container img {
-	display: block;
-	width: 100%;
-	height: 100%;
-
-	-webkit-transition: all .5s ease; /* Safari and Chrome */
+  display: block;
+  width: 100%;
+  height: auto;
+  -webkit-transition: all .5s ease; /* Safari and Chrome */
     -moz-transition: all .5s ease; /* Firefox */
     -ms-transition: all .5s ease; /* IE 9 */
     -o-transition: all .5s ease; /* Opera */
