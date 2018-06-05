@@ -343,3 +343,8 @@ a.button-2:hover{background-color: rgba(0, 0, 0, 0.9);}
 .maps iframe{
     pointer-events: none;
 }
+
+.transfer img{
+  max-width: 80%;
+  max-height: 80%;
+}
