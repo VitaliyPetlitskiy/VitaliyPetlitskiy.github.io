@@ -74,7 +74,7 @@ hr.line-2{background: #333;max-width: 40px;height: 4px;}
 /* ------------------------------------Html-Body------------------------------- */
 /* ---------------------------------------------------------------------------- */
 html, body {width:100%; padding:0; margin:0;}
-body {font: 16px/26px Arial, Helvetica, sans-serif;font-family: 'Crimson Text', serif;background: #fff;}
+body {font: 25px/40px Arial, Helvetica, sans-serif;font-family: 'Crimson Text', serif;background: #fff;}
 body .wrap-body{}
 
 /* ---------------------------------------------------------------------------- */
@@ -85,9 +85,9 @@ header{text-align: left;background: #fff;}
  .logo a{font-family: 'Dancing Script', cursive;font-size: 80px;color: #333;font-weight: bold;display: block;line-height: 1.3;}
  .logo span{font-size: 16px;letter-spacing: 1px;}
 @media(max-width:767px){
-	 .logo{padding: 30px 0 5px;}
-	 .logo a{font-size: 65px;}
-	 .logo span{font-size: 16px;}
+	 .logo{padding: 30px 0 0px;}
+	 .logo a{font-size: 50px;}
+	 .logo span{font-size: 15px;}
 }
 /* ---------------------------------------------------------------------------- */
 /* -------------------------------------Container------------------------------ */
@@ -147,7 +147,7 @@ article{background: #ffffff; color: #3F3F3F; margin-bottom: 40px;padding-bottom:
 article:after, article:before{clear: both; content: '\0020'; display: block; visibility: hidden; width: 0; height: 0;}
 article .post-thumbnail-wrap {text-align: center;width: 100%;margin-bottom: 10px;}
 article .post-thumbnail-wrap img {}
-article h3.entry-title{font-size: 20px;margin: 10px 0 5px;font-weight: 500;letter-spacing: 1px;color: #222;}
+article h3.entry-title{font-size: 20px;margin: 10px 0 5px;font-weight: 500;letter-spacing: 1px;color: #114abe;}
 article .l-tags{text-align: center;font-size: 12px; font-family: 'Crimson Text', serif;text-transform: uppercase;letter-spacing: .9px;}
 article .l-tags a{color: #333;}
 article .l-tags a:hover{color: #628d7c;}
@@ -156,7 +156,7 @@ article .entry-header{text-align: center;}
 article.single-post .entry-header{padding: 40px 0;}
 article.single-post .entry-header h2.entry-title{font-family: 'Cabin', Helvetica, sans-serif;font-size: 24px;font-weight: bold;line-height: 30px;color: #111;letter-spacing: 2px;margin: 0;text-transform: uppercase;}
 article.single-post .entry-header h2.entry-title a {color: #111;margin: 0;}
-article .entry-title-blog a:hover {color: #628d7c;}
+article .entry-title-blog a:hover {color: #ffe867;}
 article .entry-header .time {font-family: "Merriweather",Georgia,serif;color: #888;font-size: 17px;padding-bottom: 10px;display: block;}
 article .entry-header .cat-links {font-size: 15px;font-weight: bold;text-transform: uppercase;letter-spacing: 2px;padding-top: 10px;display: block;}
 
@@ -175,7 +175,7 @@ article .entry-content ol {float: left;text-align: justify;margin: 10px 50px;fon
 /* ---------------------------------------------------------------------------- */
 /* -------------------------------------Footer--------------------------------- */
 /* ---------------------------------------------------------------------------- */
-footer{background: #003aaf;font-size: 15px;color: #999}
+footer{background: #003aaf;font-size:20px;color: #999}
 footer a{color:#999;font-weight: bold;text-shadow: none;}
 footer a:hover{color:#fff;}
 
@@ -188,7 +188,7 @@ footer .col-footer-2{}
 footer .col-footer-2 ul {padding: 0;}
 footer .col-footer-2 ul li {list-style: none;margin-bottom: 5px; border-bottom: 1px solid #444;padding-bottom: 10px;}
 footer .col-footer-2 ul li:last-child{border-bottom: none;}
-footer .col-footer-2 ul li a{color: #999;font-size: 12px;}
+footer .col-footer-2 ul li a{color: #999;font-size: 20px;}
 footer .col-footer-2 ul li a:hover{color: #eee;}
 
 footer .col-footer-3 a{color: #999; background: #202020; padding: 5px 10px;line-height: 2.3;font-size: 14px;text-transform: capitalize;margin-right: 1px;}
@@ -248,6 +248,6 @@ a.button:hover{background-color: #333;}
 table {
     display: table;
     border-collapse: separate;
-    border-spacing: 2px;
+    border-spacing: 50px 2px;
     border-color: grey;
 }
