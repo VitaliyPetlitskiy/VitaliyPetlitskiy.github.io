@@ -36,7 +36,7 @@ html { -webkit-text-size-adjust: none;}
 img{max-width:100%;	height: auto;width: auto\9; /* ie8 */}
 
 a{color: #333;text-decoration: none;}
-a:hover {color: #628d7c; text-decoration: none;}
+a:hover {color: #003aaf; text-decoration: none;}
 
 h1, h2 	{font-size: 25px;line-height: 30px;}
 h3, h4	{font-size: 20px;line-height: 20px;}
@@ -150,13 +150,13 @@ article .post-thumbnail-wrap img {}
 article h3.entry-title{font-size: 20px;margin: 10px 0 5px;font-weight: 500;letter-spacing: 1px;color: #114abe;}
 article .l-tags{text-align: center;font-size: 12px; font-family: 'Crimson Text', serif;text-transform: uppercase;letter-spacing: .9px;}
 article .l-tags a{color: #333;}
-article .l-tags a:hover{color: #628d7c;}
+article .l-tags a:hover{color: #003aaf;}
 
 article .entry-header{text-align: center;}
 article.single-post .entry-header{padding: 40px 0;}
 article.single-post .entry-header h2.entry-title{font-family: 'Cabin', Helvetica, sans-serif;font-size: 24px;font-weight: bold;line-height: 30px;color: #111;letter-spacing: 2px;margin: 0;text-transform: uppercase;}
 article.single-post .entry-header h2.entry-title a {color: #111;margin: 0;}
-article .entry-title-blog a:hover {color: #ffe867;}
+article .entry-title-blog a:hover {color: #003aaf;}
 article .entry-header .time {font-family: "Merriweather",Georgia,serif;color: #888;font-size: 17px;padding-bottom: 10px;display: block;}
 article .entry-header .cat-links {font-size: 15px;font-weight: bold;text-transform: uppercase;letter-spacing: 2px;padding-top: 10px;display: block;}
 
@@ -250,4 +250,13 @@ table {
     border-collapse: separate;
     border-spacing: 50px 2px;
     border-color: grey;
+}
+.blue {
+  color: #114abe;
+  font-weight:bold;
+}
+.red {
+  color: red;
+  font-weight:bold;
+
 }
