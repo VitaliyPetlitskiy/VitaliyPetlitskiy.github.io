@@ -116,10 +116,10 @@ header{text-align: left;background: #fff;}
 
 .content-box.box-2 {}
 
-.content-box.box-3 blockquote {position: relative;padding: 20px 100px 0;text-align: center;font-size: 35px; border:none;line-height: 1.2;}
+.content-box.box-3 blockquote {position: relative;padding: 20px 100px 0;text-align: center;font-size: 30px; border:none;line-height: 1.2;}
 .content-box.box-3 blockquote:before, .content-box.box-3 blockquote:after {position: absolute;width: 50px;height: 50px;font-size: 110px;line-height: 1; }
-.content-box.box-3 blockquote:before {top: 0;left: 0;content: "\201C"; }
-.content-box.box-3 blockquote:after {top: 0;right: 0;content: "\201D"; }
+
+
 @media only screen and (max-width: 1100px) {
  .content-box.box-3 blockquote {font-size: 22px; } 
  }
@@ -257,6 +257,7 @@ table {
 }
 .red {
   color: red;
-  font-weight:bold;
+  font-weight:bold
 
 }
+.above
