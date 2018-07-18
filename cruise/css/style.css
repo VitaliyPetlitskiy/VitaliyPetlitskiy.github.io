@@ -69,7 +69,7 @@ hr{border: 0;height: 3px;margin: 20px auto;}
 hr.line-1{background: #fff;max-width: 30px;}
 hr.line-2{background: #333;max-width: 40px;height: 4px;}
 
-.widget-title{font-weight: bold;text-transform: uppercase;line-height: 1.38;margin-bottom: 20px;font-size: 14px;color: #eee;}
+.widget-title{font-weight: bold;text-transform: uppercase;line-height: 1.38;margin-bottom: 20px;font-size: 14px;color: #eee; padding-left: 40px}
 /* ---------------------------------------------------------------------------- */
 /* ------------------------------------Html-Body------------------------------- */
 /* ---------------------------------------------------------------------------- */
@@ -180,7 +180,7 @@ footer a{color:#999;font-weight: bold;text-shadow: none;}
 footer a:hover{color:#fff;}
 
 footer .wrap-footer{padding: 60px 0;}
-footer .wrap-footer ul li {margin-bottom: 5px;padding: 10px 0 15px;}
+footer .wrap-footer ul li {margin-bottom: 5px;padding: 10px 30px 15px;}
 footer .logo img{max-width: 170px;margin-top: 30px;}
 footer .col-footer-1 {}
 
