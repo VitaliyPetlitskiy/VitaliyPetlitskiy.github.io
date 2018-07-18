@@ -86,7 +86,9 @@ header{text-align: center;background: #fff;}
  .logo span{font-size: 16px;letter-spacing: 1px;}
 @media(max-width:767px){
 	 .logo{padding: 20px 0 0px;}
-	 .logo a{font-size: 30px;}
+	 .logo a{font-size: 10px;padding-bottom: 10px;}
+   .logo_shop img{max-width: 50%; height: auto;}
+   .logo_costa img{max-width: 100%; height: auto;}
 	 .logo span{font-size: 15px;}
 }
 /* ---------------------------------------------------------------------------- */
