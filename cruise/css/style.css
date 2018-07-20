@@ -320,5 +320,6 @@ h2 {
   padding     : 10px;
 }
 @media(max-width: 767px){
-   .title_front {font-size: 18px;}
+   .title_front {font-size: 18px; word-spacing: 4px;}
+
 }
