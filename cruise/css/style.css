@@ -200,7 +200,7 @@ footer .col-footer-1 {}
 
 footer .col-footer-2{}
 footer .col-footer-2 ul {padding: 0;}
-footer .col-footer-2 ul li {list-style: none;margin-bottom: 3px; border-bottom: 1.2px solid #444;padding-bottom: 5px;}
+footer .col-footer-2 ul li {list-style: none;margin-bottom: 3px; border-bottom: 0.1px solid #fff;padding-bottom: 5px;}
 footer .col-footer-2 ul li:last-child{border-bottom: none;}
 footer .col-footer-2 ul li a{color: #fff;font-size: 20px;}
 footer .col-footer-2 ul li a:hover{color: #eee; font-size: 23px;}
@@ -308,7 +308,7 @@ table {
 
 h2 {
   position  : absolute;
-  top   : 10px;
+  top   : 30px;
   left    : 0px;
   width   : 90%;
 }

@@ -243,7 +243,7 @@
   display: block;
 }
 @media all and (max-width: 800px), only screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 1024px), only screen and (min--moz-device-pixel-ratio: 2) and (max-width: 1024px), only screen and (-o-min-device-pixel-ratio: 2/1) and (max-width: 1024px), only screen and (min-device-pixel-ratio: 2) and (max-width: 1024px), only screen and (min-resolution: 192dpi) and (max-width: 1024px), only screen and (min-resolution: 2dppx) and (max-width: 1024px) {
-	#cssmenu{background: #003aaf;}
+	#cssmenu{background: #1a6fb9;}
   #cssmenu > ul {
     max-height: 0;
     overflow: hidden;
