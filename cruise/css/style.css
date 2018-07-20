@@ -39,7 +39,7 @@ a{color: #333;text-decoration: none;}
 a:hover {color: #003aaf; text-decoration: none;}
 
 h1, h2 	{font-size: 25px;line-height: 30px;}
-h3, h4	{font-size: 30px;line-height: 30px;}
+h3, h4	{font-size: 25px;line-height: 30px;}
 h5, h6	{font-size: 16px;line-height: 16px;}
 
 h1, h2, h3, h4, h5, h6{clear: both;hyphens: auto; color: #000;line-height: 1.2;font-family: 'Montserrat', sans-serif;letter-spacing: 1px;}
@@ -78,13 +78,18 @@ html, body {
     font-family: "Crimson Text",serif;
     background: #fff;
 }
+@media(max-width:767px){
+  html, body {
+    font: 15px/25px Arial, Helvetica, sans-serif;
+  }
+}
 body .wrap-body{}
 
 /* ---------------------------------------------------------------------------- */
 /* -------------------------------------Header--------------------------------- */
 /* ---------------------------------------------------------------------------- */
 header{text-align: center;background: #fff;}
- .logo {color: #333;padding: 10px 0 5px;}
+ .logo {color: #333;padding: 40px 0 5px;}
  .logo a{font-family: 'Dancing Script',;font-size: 15px;color: #333;font-weight: bold;display: block;line-height: 1.3;}
  .logo span{font-size: 16px;letter-spacing: 1px;}
 @media(max-width:767px){
@@ -111,6 +116,10 @@ header{text-align: center;background: #fff;}
 .content-box .wrap-box {padding: 40px 10px; position: relative;}
 .content-box .box-header { margin: 0 0 30px;text-align: center;}
 .content-box .box-header h2{font-size: 22px;display: block;text-transform: uppercase;font-weight: 500;}
+@media(max-width:767px){
+  .content-box .box-header h2 {font-size: 15px;}
+
+}
 .content-box .box-content{}
 
 .content-box.box-style-1{background: #f9f9f9;}
@@ -173,7 +182,7 @@ article .entry-content{ padding: 40px 100px; text-align: left;}
 @media(max-width:480px){
 	article.single-post .entry-content{ padding: 30px;}
 }
-article .entry-content p{font-size: 16px;color: #686868;}
+article .entry-content p{color: #686868;}
 article .entry-content blockquote {border-left: 3px solid #1c7791;font-size: 18px;margin: 0 50px;font-style: italic;color: #666;padding-left: 20px;}
 article .entry-content ol {float: left;text-align: justify;margin: 10px 50px;font-size: 16px;list-style-type: circle;}
 
@@ -283,29 +292,32 @@ table {
 .logo_costa img {
     max-width: 400%;
     height: auto;
-    padding-right: 300px;
-    
+    padding-right: 300px;   
 }
+
 @media(max-width: 767px){
-  .logo_shop img {size: 90%}
+  .logo_shop img {size: 90%;}
   .logo_costa img {padding-right: 180px;}
-  .title_front {font-size: 18px}
-}
+} 
 
 .image {
   position  : relative;
   width   : 100%; /* for IE 6 */
 }
+
 h2 {
   position  : absolute;
   top   : 10px;
   left    : 0px;
   width   : 90%;
 }
-.title_front {
 
+.title_front {
   font-family: 'Dancing Script', cursive;font-size: 50px;color: #fff;font-weight: bold;display: block;line-height: 1.3;
   letter-spacing    : -1px;
   background    : rgba(8, 56, 140, 0.5);
   padding     : 10px;
+}
+@media(max-width: 767px){
+   .title_front {font-size: 18px;}
 }
