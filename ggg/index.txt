@@ -10,6 +10,7 @@
 	<meta charset="utf-8">
 	<title>CruiseUkraine</title>
 	
+	
     <!-- Mobile Specific Metas
 	================================================== -->
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -18,6 +19,7 @@
 	================================================== -->
   	<link rel="stylesheet" href="css/zerogrid.css">
 	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/bootstrap.css">
 
 	<!-- Custom Fonts -->
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -47,36 +49,33 @@
 			<div class="logo">
 				
 						<div class="zerogrid">
-							<div class="wrap-box">
-								<div class="row">
-										<div class="col-2-5">
-											<div class="logo_shop">
-											<a href="#"><img src="images/logo.jpg" alt="logo"></a>
-											</div>
-										</div>
-										
-										<div class="col-2-5">
-											<div class="logo_costa">
-											<a href="#"><img src="images/logo2.jpg" alt="logo"></a>
-											</div>
-										</div>
+							<div class="row">
+									<div class="col-1-4">
+										<a href="#"><img src="images/logo.jpg" alt="logo"></a>
+									</div>
 									
-										<div class="col-1-5">
-															<div class="contact_info">
-																<a href="tel: +380445001397"><img src="images/phone.png"> +38 (044) 500 13 97</a>
-																<a href="tel: +380505001397"><img src="images/mts.png"> +38 (050) 500 13 97</a>
-																<a href="tel: +380985001397"><img src="images/ks.png"> +38 (098) 500 13 97</a>
-																<a href="skype: CruiseShop Kiev?call"><img src="images/skype.png"> CruiseShop Kiev</a>
-																<a href="mailto: cruise@cruiseshop.com.ua"><img src="images/mail.png"> cruise@cruiseshop.com.ua</a>   
-					                						</div>
-										</div>
-								</div>				
+									<div class="col-1-4">
+										<a href="#"><img src="images/logo2.jpg" alt="logo"></a>
+									</div>
+									<div class="col-1-4">
+										
+									</div>
+									<div class="col-1-4">
+														<div class="contact_info">
+				                						<div><img src="images/phone.png"> +38(044)500 13 97</div>
+				                						<div><img src="images/mts.png"> +38(050)500 13 97</div>
+				                						<div><img src="images/ks.png"> +38(098)500 13 97</div>
+				                						<div><img src="images/skype.png"> CruiseShop Kiev</div>
+				                						<div><img src="images/mail.png"> cruise@cruiseshop.com.ua</div>            
+				                						</div>				
+									</div>
+											
 							</div>	
 						</div>
 			</div>
 			<div id="cssmenu" class="align-center">
 				<ul>
-					<li><a href="#"><span>Поиск круиза</span></a></li>
+					<li class="active"><a href="#"><span>Поиск круиза</span></a></li>
 					<li><a href="#"><span>Италия</span></a></li>
 					
 					<li><a href="#"><span>Спецпредложения</span></a></li>
@@ -95,210 +94,49 @@
 			<div id="owl-slide" class="owl-carousel">
 				
 				<div class="item">
-					<div class="image">
-						<img src="images/slide1.jpg" />
-						<h2><spsn class="title_front">Приоритетный партнер <span style="color: red; transform: perspective(2000px);">COSTA Crociere</span> в Украине</spsn></h2>
-					</div>	
+					<img src="images/slide1.jpg" />
 				</div>
 				<div class="item">
-					<div class="image">
-						<img src="images/slide2.jpg" />
-						<h2><spsn class="title_front">Приоритетный партнер <span style="color: red; transform: perspective(2000px);">COSTA Crociere</span> в Украине</spsn></h2>
-					</div>	
+					<img src="images/slide2.jpg" />
 				</div>
 				<div class="item">
-					<div class="image">
-						<img src="images/slide3.jpg" />
-						<h2><spsn class="title_front">Приоритетный партнер <span style="color: red; transform: perspective(2000px);">COSTA Crociere</span>  в Украине</spsn></h2>
-					</div>	
+					<img src="images/slide3.jpg" />	
 				</div>
 				<div class="item">
-					<div class="image">
-						<img src="images/slide4.jpg" />
-						<h2><spsn class="title_front">Приоритетный партнер <span style="color: red; transform: perspective(2000px);">COSTA Crociere</span> в Украине</spsn></h2>
-					</div>	
+					<img src="images/slide4.jpg" />	
 				</div>
 				<div class="item">
-					<div class="image">
-						<img src="images/slide5.jpg" />
-						<h2><spsn class="title_front">Приоритетный партнер <span style="color: red; transform: perspective(2000px);">COSTA Crociere</span> в Украине</spsn></h2>
-					</div>	
+					<img src="images/slide5.jpg" />	
 				</div>
 			</div>
 		</header>
 		<!--////////////////////////////////////Container-->
-		<section class="content-box box-3">
-					<div class="zerogrid">
-						<div class="wrap-box"><!--Start Box-->
-							<div class="box-header">
-								<h3>70 лет под итальянскими флагами</h3>
-							</div>
-							<div class="box-content">
-								<div class="row">
-									<div class="col-1-2">
-										<div class="wrap-col">
-											<p>Costa Group — лидер среди круизных компаний в Континентальной Европе и Китае. Часть крупнейшей в мире туристической компании Carnival Corp & plc, которой суммарно принадлежит более 100 лайнеров.
-											</p>
-										</div>
-									</div>
-									<div class="col-1-2">
-										<div class="wrap-col">
-											<p>Лайнеры Costa Group единственные в мире ходят под итальянским флагом. Costa — воплощение итальянского стиля и совершенства уже 70 лет.</p>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</section>
-				<!-----------------content-box-4-------------------->
-				<section class="content-box box-style-1 box-4">
-					<div class="zerogrid" style="width: 100%">
-						<div class="wrap-box"><!--Start Box-->
-							<div class="row">
-								<article>
-									<div class="col-1-2">
-										<img src="images/food.jpg" alt="">
-									</div>
-									<div class="col-1-2">
-										<div class="entry-content t-center">
-											<h3>Больше, чем еда…</h3>
-											<p>Полный пансион: завтрак, обед, послеобеденный чай, пицца и канапе, ужин и полуночный сюрприз!
-												Специализированные рестораны A la Carte: Pummid’oro Pizzeria, Burger d’Autore, Dinner under the Stars, Lobster Bar 
-												Приветственный коктейль с капитаном, гала-ужин, праздничное меню на Рождество, Новый год и Пасху
-												Детское меню
-												Специальные меню: вегетарианское и безглютеновое меню доступно по запросу
-												Интернациональные блюда & итальянская региональная кухня. На борту готовят Моцареллу и делают пиццу из дрожжевого теста
-												Spritz Bar
-												Кафе-мороженое Amarillo</p>
-											<a class="button" href="#">Подробней</a>
-										</div>
-									</div>
-								</article>
-							</div>
-							<div class="row">
-								<article>
-									<div class="col-1-2 f-right">
-										<img src="images/sport_рealth_fitness.jpg" alt="">
-									</div>
-									<div class="col-1-2">
-										<div class="entry-content t-center">
-											<h3>Спорт, здоровье и фитнес</h3>
-											<p>Современно оборудованный тренажерный зал, персональные инструкторы и групповые занятия;
-												SPA-центр;
-												Беговые дорожки под открытым небом;
-												Многофункциональные спортивные площадки и столы для настольного тенниса.</p>
-											<a class="button" href="#">Подробней</a>
-										</div>
-									</div>
-								</article>
-							</div>
-							<div class="row">
-								<article>
-									<div class="col-1-2">
-										<img src="images/Entertainment.jpg" alt="">
-									</div>
-									<div class="col-1-2">
-										<div class="entry-content t-center">
-											<h3>Развлечения на борту</h3>
-											<p>Бесконечный выбор мероприятий и развлечений для всех возрастов
-												День: игры у бассейна, художественные мастер-классы, спортивные и карточные турниры, караоке, танцы, итальянские кулинарные курсы, курсы изучения итальянского языка и многое другое;
-												Ночь: шоу-программы каждый вечер, живая музыка, акробаты, кабаре, танцы и тематические вечеринки «Все в белом», «маскарад», Liquid Entertainment.</p>
-											<a class="button" href="#">Подробней</a>
-										</div>
-									</div>
-								</article>
-							</div>
-							<div class="row">
-								<article>
-									<div class="col-1-2 f-right">
-										<img src="images/service.jpg" alt="">
-									</div>
-									<div class="col-1-2">
-										<div class="entry-content t-center">
-											<h3>На «Золотых» лайнерах гарантированы сервисы:</h3>
-											<p> 
-												Для каждого Золотого Лайнера 2 экскурсии с русскоговорящим гидом предлагаются по специальной стоимости 69 euro за 2 экскурсии на Diadema, Luminosa и Mediterranea и 119 euro за 2 экскурсии на Magica — вне зависимости от набора группы
-												Русскоговорящий аниматор для детей
-												Учет предпочтений русских гостей на борту: еда и развлекательная программа
-												Увеличение продолжительности часов работы кофе-чайной станции в буфете
-												Теперь горячие блюда подаются на завтрак: каши, яйца и др.
-												Российский TV- канал в каюте
-												Ежедневная Программа дня на русском языке</p>
-											<a class="button" href="http://www.cruiseshop.com.ua/company/costa_crociere.html">Подробнее о лайнерах Costa Cruises</a>
-										</div>
-									</div>
-								</article>
-							</div>
-						</div>
-					</div>
-				</section>
 		
-
-				<section class="content-box box-3">
-					<div class="zerogrid">
-						<div class="wrap-box"><!--Start Box-->
-							<div class="box-header">
-								<h3>Лайнеры Costa для русскоязычных туристов</h3>
-							</div>
-							<div class="box-content">
-								<div class="row">
-									<div class="col-1-2">
-										<div class="wrap-col">
-											<p>Costa Cruises вышла на российский рынок в 2003 году, а 2018 год станет годом русской кастомизации компании.
-												На 11 из 15 лайнеров компании клиентам будет гарантирован русскоязычный сервис. Гостям предоставят полную информацию о корабле и всех аспектах круизной жизни на борту, переведут на русский язык ежедневную Программу дня, меню в ресторанах и объявления по громкой связи и помогут русскоязычным гостям по всем организационным вопросам на борту.	
-											</p>
-										</div>
-									</div>
-									<div class="col-1-2">
-										<div class="wrap-col">
-											<div class="content__item-column">
-												<p>Четыре самых популярных среди наших соотечественников лайнера носят статус «Золотых», где Costa говорит по-русски.</p>
-												<div class="liners_boat">
-													<div class="liners_boat__item">
-														<p class="liners_boat__item-text">
-															<b><i>Costa Diadema,</i></b>
-															Средиземноморье, круглый год
-														</p>
-													</div>
-													<div class="liners_boat__item">
-														<p class="liners_boat__item-text">
-															<b><i>Costa Mediterranea,</i></b>
-															ОАЭ, зима
-														</p>
-													</div>
-													<div class="liners_boat__item">
-														<p class="liners_boat__item-text">
-															<b><i>Costa Luminosa,</i></b>
-															Восточное Среди-земноморье, Лето
-														</p>
-													</div>
-													<div class="liners_boat__item">
-														<p class="liners_boat__item-text">
-															<b><i>Costa Magica,</i></b><br>
-															Северная Европа,<br> Лето
-														</p>
-													</div>
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</section>
+		
 
 
 		<section class="content-box">
 			<div class="zerogrid">
 				<div class="wrap-box"><!--Start Box-->
 					<div class="row">
-
-							<form class="#">
+						<div class="col-1-3">
+							<form class="form-search">
+								  <input type="text" class="input-medium search-query">
 								  
 							</form>
-						
+						</div>
+						<div class="col-1-3">
+							<form class="form-search">
+								  <input type="text" class="input-medium search-query">
+								  
+							</form>
+						</div>
+						<div class="col-1-3">
+							<form class="form-search">
+								  <input type="text" class="input-medium search-query">
+								  <button type="submit" class="btn">Найти</button>
+							</form>
+						</div>
 
 					</div>
 				</div>
@@ -642,7 +480,7 @@
 		<!--////////////////////////////////////Footer-->
 		<footer>
 			<div class="zerogrid wrap-footer">
-				<div class="zerogrid">
+				
 				<div class="row">
 					<h3 class="widget-title">Контакты</h3>	
 				</div>
@@ -659,8 +497,8 @@
 							          <li>Правила использования информации сайта</li>
 							          <li>Лицензия туроператора №1320</li>
 							          <li>Коммерческий курс:  $<span style="color:#FF1302">26.88</span><span class="left_pad15">€</span><span style="color:#FF1302">31.52</span></li>
-							          <li>Курс валют рассчитан на основе данных, взятых с <br><a href="http://privatbank.ua" target="_blank">сайта ПриватБанка  <i class="fa fa-credit-card" aria-hidden="true"></i></a></li>
-							          
+							          <li>Курс валют рассчитан на основе данных, взятых с <a href="http://privatbank.ua" target="_blank">сайта ПриватБанка  <i class="fa fa-credit-card" aria-hidden="true"></i></a></li>
+							          <li><p>Мы в соцсетях: <a href="https://www.facebook.com/CruiseShopUkraine" target="_blank"><i class="fa fa-facebook">acebook</i></a></p></li>
 							        </ul>
 						</div>
 					</div>
@@ -669,30 +507,28 @@
 						<div class="wrap-col">
 							
 
-															
+							
 							
 						
 							
 
 							<ul>
-					          <li><i class="fa fa-phone" aria-hidden="true"></i><a href="tel: +380445001397"></i> +38 (044) 500 13 97</a>  (Киев)</li>
-					          <li><img src="images/mts.png">  <a href="tel: +380505001397">+38 (050) 500 13 97</a> (Vodafon)</li>
-					          <li><img src="images/ks.png">   <a href="tel: +380985001397">+38 (098) 500 13 97</a> (Київстар)</li>
-					          <li><i class="fa fa-map-marker" aria-hidden="true"></i> 04070 Україна, Київ, вул.Спаська, 12-В</li>
-					          <li><i class="fa fa-envelope-o" aria-hidden="true"></i><a href="mailto: cruise@cruiseshop.com.ua"> cruise@cruiseshop.com.ua</a></li>
-					          <li><a href="skype: CruiseShop Kiev?call"><img src="images/skype.png">  CruiseShop Kiev</a> </li>
-					          <li><a href="http://cruise.com.ua" target="_blank"><i class="fa fa-globe" aria-hidden="true"></i> Магазин Круизов и Путешествий </a></li>
-					          <li>Мы в соцсетях: <a href="https://www.facebook.com/CruiseShopUkraine" target="_blank"><span style="font-size:30px">f</span>aceboo<span style="font-size:25px">k</span></a></li>
+					          <li><img src="images/phone.png">  +38(044)500 13 97 (Киев)</li>
+					          <li><img src="images/mts.png">  +38(050)500 13 97 (Vodafon)</li>
+					          <li><img src="images/ks.png">  +38(098)500 13 97 (Київстар)</li>
+					          <li> <i class="fa fa-map-marker" aria-hidden="true"></i>04070 Україна, Київ, вул.Спаська, 12-В</li>
+					          <li><a href="mailto:cruise@cruiseshop.com.ua"><i class="fa fa-envelope-o" aria-hidden="true"></i>cruise@cruiseshop.com.ua</a></li>
+					          <li></span><a href="http://cruise.com.ua" target="_blank">Магазин Круизов и Путешествий  <i class="fa fa-globe" aria-hidden="true"></i></a></li>
 					        </ul>
 							
 						</div>
 					</div>
 					
 
-				</div>	
+					
 				</div>
 			</div>
-			<div class="zerogrid bottom-footer"> 
+			<div class="zerogrid bottom-footer">
 			<!-- 	<div class="row">
 				<div class="bottom-social">
 					<a href="#"><i class="fa fa-facebook"></i></a>
@@ -706,7 +542,7 @@
 				</div>
 			</div> -->
 				<div class="copyright">
-					Copyright @ - Designed by <a href="#">CruiseUkraine 2018</a>
+					Copyright @ - Designed by <a href="#">Cruiseshop 2018</a>
 				</div>
 			</div>
 		</footer>
