@@ -1,10 +1,18 @@
 /*
 Zerotheme.com | Free Html5 Responsive Templates
-Author URI: https://www.zerotheme.com/
+
 */
 @import url(https://fonts.googleapis.com/css?family=Dancing+Script);
 @import url(https://fonts.googleapis.com/css?family=Cabin);
 @import url(https://fonts.googleapis.com/css?family=Crimson+Text);
+
+
+@font-face{
+font-family: 'ExcentraPro-Light';
+src: 
+url('excentrapro/ExcentraPro-Light.off') format('off'),
+url('excentrapro/ExcentraPro-Light.ttf') format('truetype');
+}
 /* ---------------------------------------------------------------------------- */
 /* ------------------------------------Reset----------------------------------- */
 /* ---------------------------------------------------------------------------- */
@@ -42,7 +50,16 @@ h1, h2 	{font-size: 25px;line-height: 30px;}
 h3, h4	{font-size: 25px;line-height: 30px;}
 h5, h6	{font-size: 16px;line-height: 16px;}
 
-h1, h2, h3, h4, h5, h6{clear: both;hyphens: auto; color: #000;line-height: 1.2;font-family: 'Montserrat', sans-serif;letter-spacing: 1px;}
+h1, h2, h3, h4, h5, h6{
+
+    font-size: 50px;
+    line-height: 1.4;
+    font-family: "ExcentraPro-Light";
+    font-weight: 300;
+    margin: 0;
+  
+    color: #0074be;
+}
 
 p{margin: 10px 0;}
 
@@ -74,9 +91,14 @@ hr.line-2{background: #333;max-width: 40px;height: 4px;}
 /* ------------------------------------Html-Body------------------------------- */
 /* ---------------------------------------------------------------------------- */
 html, body {
-    font: 25px/32px Arial, Helvetica, sans-serif;
-    font-family: "Crimson Text",serif;
-    background: #fff;
+
+    font-size: 26px;
+    font-family: "ExcentraPro-Light";
+    line-height: 1.42;
+    margin-bottom: 31px;
+
+
+   
 }
 @media(max-width:767px){
   html, body {
@@ -89,8 +111,8 @@ body .wrap-body{}
 /* -------------------------------------Header--------------------------------- */
 /* ---------------------------------------------------------------------------- */
 header{text-align: center;background: #fff;}
- .logo {color: #333;padding: 40px 0 5px;}
- .logo a{font-family: 'Dancing Script',;font-size: 15px;color: #333;font-weight: bold;display: block;line-height: 1.3;}
+ .logo {color: #333;padding: 40px 0 9px;}
+ .logo a{font-family: 'Dancing Script',;font-size: 11px;color: #333;font-weight: bold;display: block;line-height: 1.3;}
  .logo span{font-size: 16px;letter-spacing: 1px;}
 @media(max-width:767px){
 	 .logo{padding: 20px 0 0px;}
@@ -114,7 +136,10 @@ header{text-align: center;background: #fff;}
 /* ---content-box--- */
 .content-box {}
 .content-box .wrap-box {padding: 40px 10px; position: relative;}
-.content-box .box-header { margin: 0 0 30px;text-align: center;}
+.content-box .box-header h3{ margin: 0 0 30px;text-align: center; font-size: 50px;}
+@media(max-width:767px){
+  .content-box .box-header h3{ margin: 0 0 5px; font-size: 20px;}
+}
 .content-box .box-header h2{font-size: 22px;display: block;text-transform: uppercase;font-weight: 500;}
 @media(max-width:767px){
   .content-box .box-header h2 {font-size: 15px;}
@@ -175,9 +200,12 @@ article .entry-header .time {font-family: "Merriweather",Georgia,serif;color: #8
 article .entry-header .cat-links {font-size: 15px;font-weight: bold;text-transform: uppercase;letter-spacing: 2px;padding-top: 10px;display: block;}
 
 
-article .entry-content{ padding: 40px 100px; text-align: left;}
+article .entry-content{ padding: 40px 30px; text-align: left;  font-size: 35px;} 
+article .entry-content h3{ font-size: 40px;}
 @media(max-width:767px){
-	article .entry-content{ padding: 30px 50px;}
+	article .entry-content{ padding: 10px 25px; font-size: 20px;}
+  article .entry-content h3{ font-size: 25px;}
+
 }
 @media(max-width:480px){
 	article.single-post .entry-content{ padding: 30px;}
@@ -278,27 +306,27 @@ table {
 .contact_info a{
    
     text-align: left;
-    font: : 25px/35px Arial, Helvetica, sans-serif
+   
 }
 
 @media(max-width:767px){
   .contact_info {display:none;}
 }
+
 .logo_shop img {
     max-width: 90%;
     height: auto;
-    
-    
+    padding-top: 13px;
 }
 .logo_costa img {
-    max-width: 400%;
+    max-width: 100%;
     height: auto;
-    padding-right: 300px;   
+    padding-right: 550px;  
 }
 
 @media(max-width: 767px){
   .logo_shop img {size: 90%;}
-  .logo_costa img {padding-right: 180px;}
+  .logo_costa img {size: 90%;}
 } 
 
 .image {
@@ -314,12 +342,22 @@ h2 {
 }
 
 .title_front {
-  font-family: 'Dancing Script', cursive;font-size: 30px;color: #fff;font-weight: bold;display: block;line-height: 1.3;
+  font-family: 'ExcentraPro-Light', cursive;font-size: 30px;color: #fff;font-weight: bold;display: block;line-height: 1.3;
   letter-spacing    : -1px;
   background    : rgba(8, 56, 140, 0.5);
   padding     : 10px;
 }
 @media(max-width: 767px){
    .title_front {font-size: 18px; word-spacing: 4px;}
+}
+
+.logo_front {
+  font-family: 'ExcentraPro-Light', cursive;font-size: 30px;color: #003aaf;font-weight: bold;display: block;line-height: 1.3;
+  letter-spacing    : -1px;
+  background    : rgba(8, 56, 140, 0);
+  padding     : 10px;
+}
+@media(max-width: 767px){
+   .logo_front {font-size: 18px; word-spacing: 4px;}
 
 }
