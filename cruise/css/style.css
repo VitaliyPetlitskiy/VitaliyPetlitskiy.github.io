@@ -95,7 +95,6 @@ html, body {
     font-size: 26px;
     font-family: "ExcentraPro-Light";
     line-height: 1.42;
-    margin-bottom: 31px;
 
 
    
@@ -326,7 +325,7 @@ table {
 
 @media(max-width: 767px){
   .logo_shop img {size: 90%;}
-  .logo_costa img {size: 90%;}
+  .logo_costa img {display: none;}
 } 
 
 .image {
