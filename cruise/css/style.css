@@ -322,10 +322,13 @@ table {
     height: auto;
     padding-right: 550px;  
 }
+.logo_shop_min img {display: none;}
+.logo_costa_min img {display: none;}
 
 @media(max-width: 767px){
-  .logo_shop img {size: 90%;}
-  .logo_costa img {display: none;}
+  .logo_shop img {display: none;}
+  .logo_costa img {display: none; }
+  .logo_shop_min img {display: block; max-width: 100%; height: auto;padding-left: 25px;}
 } 
 
 .image {
