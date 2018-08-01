@@ -88,7 +88,7 @@
 }
 /* @media all and (min-width:1200px) */
 .col-lg-12 {
-	width: 100%;
+	width: 80%;
 }
 /* @media all and (min-width:1200px) */
 .col-lg-10 {
@@ -287,6 +287,10 @@ html {
 	border-bottom: 1px solid transparent;
 	border-top-left-radius: 3px;
 	border-top-right-radius: 3px;
+}
+.cck-page .btn-block {
+	display: block;
+	width: 100%;
 }
 .cck-page .panel-heading {
 	padding-top: 15px;
@@ -677,10 +681,4 @@ address, cite, dfn, em, i, var {
 	margin-bottom: 0px;
 	font-size: 16px;
 	color: inherit;
-}
-.cck-page .btn-costa--yellow {
-    border: 1px solid #fed230;
-    color: #063c5d;
-    background-color: #fed230;
-    transition: background-color .66s ease-in !important;
 }
