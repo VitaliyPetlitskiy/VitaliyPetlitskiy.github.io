@@ -1,0 +1,92 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html class="no-touch" lang="en-US" dir="ltr" xmlns:msdt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882" xmlns:mso="urn:schemas-microsoft-com:office:office">
+<head>
+<title></title>
+<link rel="stylesheet" href="css/style_form.css">
+</head>
+
+	<form class="ng-valid ng-dirty ng-valid-parse" id="aspnetForm" onsubmit="javascript:return WebForm_OnSubmit();" action="/CostaClick/en-BZ/Pages/FrontPageIFramed.aspx?GetCleanPage=true" method="post">
+		<div id="s4-workspace">
+			<div id="s4-bodyContainer">
+				<div id="ctl00_ctl00_DeltaPlaceHolderMain">
+					<div class="customWidth">
+						<div id="contentBox">
+							<div class="cck-page">
+								<div class="wrapper">
+									<div class="workspace no-padding">
+										<div class="container-fluid no-padding--mini">
+											<div class="row cck-main ng-scope" ng-controller="FrontPageSearchCtrl as frontPageSearchCtrl">
+												<div class="row-flex cck-main_search">
+													<div class="col-xs-12 col-md-12 col-lg-12" ng-class="{'col-md-12 col-lg-12' : !frontPageSearchCtrl.viewLastBookings , 'col-md-9 col-lg-9' : frontPageSearchCtrl.viewLastBookings}">
+														<div class="panel-engine main-engine main-engine--mod">
+															<div class="panel panel-white panel-rounded">
+                												<div class="panel-heading"><h4 class="panel-title"><b>Departures availability</b></h4></div>
+                													<div class="panel-body">
+                  														<div class="row-flex row-engine ng-valid ng-dirty ng-valid-parse" data-ng-form="indForm">
+                    														<div class="col-md-12 col-lg-10">
+                      															<div class="row">
+                        <!-- Quando -->
+                        															<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 engine-elements daterangepicker-wrapper">
+                      																	<div class="form-group" data-ng-class="{'has-error': (frontPageSearchCtrl.selection.start.invalid)}">
+                        																<label class="control-label mini" for="searchDatepicker">When (from / to)</label>
+                        <!-- ngIf: !bIsLoading -->
+	                        																<div class="form-control form-control--datepicker ng-untouched ng-valid ng-scope ng-not-empty ng-dirty ng-valid-parse" id="searchDatepicker" type="daterange" ng-if="!bIsLoading" ng-class="{ 'select_selected' : (selected.date_range.startDate/1)>0 &amp;&amp; (selected.date_range.startDate/1 !== selected.date_range.endDate/1)}" ng-change="applyPrefetch()" ng-model="frontPageSearchCtrl.selection.date_range" placeholder="Select destination" ng-disabled="bSearchLoading" iframed="true" xxsinglepicker="true" input-date-range=""><i class="ion ion-calendar form-control--datepicker__icon"></i><span class="form-control--datepicker__placeholder">Choose when to set off ---&gt;</span>
+	                        																</div>
+                       	<!-- end ngIf: !bIsLoading -->
+                      																	</div>
+                    																</div>
+                        <!-- Quando END -->
+                        <!-- Dove -->
+			                        														<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 engine-elements select-wrapper form-group">
+																		                      <label class="control-label mini" for="ind-where">Where</label>
+																		                      <select tabindex="2" title="Select destination" disabled="disabled" class="form-control frontPagePicker show-tick ng-pristine ng-untouched ng-valid ng-empty disabled" id="ind-where" ng-class="{'disabled' : frontPageSearchCtrl.isPrefetching || !frontPageSearchCtrl.isDateValid}" placeholder="Where" ng-disabled="frontPageSearchCtrl.isPrefetching || !frontPageSearchCtrl.isDateValid" data-ng-options="dest.Code as dest.Name for dest in frontPageSearchCtrl.fetchedItineraries" data-ng-model="frontPageSearchCtrl.selection.itinerary" data-container="body" selectpicker-watch="frontPageSearchCtrl.fetchedItineraries"><option selected="selected" value="?"></option></select>
+																		                    </div>
+                        <!-- Dove END-->
+                        <!-- Tariffa -->
+                        <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 engine-elements select-wrapper form-group">
+                          <label class="control-label mini" for="ind-promo">Fare</label>
+                          <select tabindex="3" title="Select fare" disabled="disabled" class="form-control frontPagePicker show-tick ng-pristine ng-untouched ng-valid ng-empty disabled" id="ind-promo" ng-class="{'disabled' : frontPageSearchCtrl.isPrefetching || !frontPageSearchCtrl.isDateValid}" ng-disabled="frontPageSearchCtrl.isPrefetching || !frontPageSearchCtrl.isDateValid" data-ng-options="fare.Code as fare.Name for fare in frontPageSearchCtrl.fetchedFares" data-ng-model="frontPageSearchCtrl.selection.fare" data-container="body" selectpicker-watch="frontPageSearchCtrl.fetchedFares"><option selected="selected" value="?"></option></select>
+                        </div>
+                        <!-- Tariffa END-->
+                        <!-- Porto -->
+                        <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 engine-elements select-wrapper form-group">
+                          <label class="control-label mini" for="ind-harbour">Departure port</label>
+                          <select tabindex="4" title="All ports" disabled="disabled" class="form-control frontPagePicker show-tick ng-pristine ng-untouched ng-valid ng-empty disabled" id="ind-harbour" ng-class="{'disabled' : frontPageSearchCtrl.isPrefetching || !frontPageSearchCtrl.isDateValid}" ng-disabled="frontPageSearchCtrl.isPrefetching || !frontPageSearchCtrl.isDateValid" data-ng-options="harbour.Code as harbour.Name for harbour in frontPageSearchCtrl.fetchedHarbours" data-ng-model="frontPageSearchCtrl.selection.harbour" data-container="body" selectpicker-watch="frontPageSearchCtrl.fetchedHarbours"><option selected="selected" value="?"></option></select>
+                        </div>
+                        <!-- Porto END-->
+                        <!-- Nave -->
+                        <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 engine-elements select-wrapper form-group">
+                          <label class="control-label mini" for="ind-ship">Ship</label>
+                          <select tabindex="5" title="All ships" disabled="disabled" class="form-control frontPagePicker show-tick ng-pristine ng-untouched ng-valid ng-empty disabled" id="ind-ship" ng-class="{'disabled' : frontPageSearchCtrl.isPrefetching || !frontPageSearchCtrl.isDateValid}" ng-disabled="frontPageSearchCtrl.isPrefetching || !frontPageSearchCtrl.isDateValid" data-ng-options="ship.Code as ship.Name for ship in frontPageSearchCtrl.fetchedShips" data-ng-model="frontPageSearchCtrl.selection.ship" data-container="body" selectpicker-watch="frontPageSearchCtrl.fetchedShips"><option selected="selected" value="?"></option></select>
+                        </div>
+                        <!-- Nave END-->
+                        <!-- Occupazione -->
+                        <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 engine-elements select-wrapper form-group">
+		                         
+                        </div>
+                        
+                         <div class="col-xs-2 col-xs-push-10 col-sm-2 col-sm-push-10 col-md-2 col-md-push-10 col-lg-push-0 col-lg-2 btn-result-search btn-result-search--mod">
+		                      <a tabindex="7" class="btn-searchFromFrame btn btn-block btn-costa btn-costa--yellow btn-costa--search disabled ladda-button" data-style="zoom-in" ng-click="frontPageSearchCtrl.goToResultsFromFrame()" ng-class="{'disabled' : frontPageSearchCtrl.isPrefetching || !frontPageSearchCtrl.isDateValid}" ladda="frontPageSearchCtrl.isPrefetching"><span class="ladda-label">
+		                        Search
+		                      </span><span class="ladda-spinner"></span></a>
+		                    </div>
+                        <!-- Occupazione END-->
+                      </div>
+                    </div>
+                    <!-- CTA -->
+                    
+                    <!-- CTA END -->
+              
+                    <!-- include pdf_downloader.html -->
+                    <!-- ngIf: !frontPageSearchCtrl.displayPdfPromoDownloader --><div class="col-xs-10 col-xs-pull-2 col-md-10 col-md-pull-2 col-lg-pull-0 col-lg-12 ng-scope" ng-if="!frontPageSearchCtrl.displayPdfPromoDownloader">
+                      <div class="row engine-toast-wrapper">
+                        <div class="col-xs-12">&nbsp;</div>
+                      </div>
+                    </div><!-- end ngIf: !frontPageSearchCtrl.displayPdfPromoDownloader -->
+                    
+                    <!-- ngIf: frontPageSearchCtrl.displayPdfPromoDownloader -->
+              
+                  </div><!-- .row -->
+                </div>
+              </div></div></div></div></div></div></div></div></div></div></div></div></div></div>
+              </form>
