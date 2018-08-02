@@ -19,7 +19,7 @@
   	<link rel="stylesheet" href="css/zerogrid.css">
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/style_form.css">
-	<link rel="stylesheet" href="css/search.css">
+	
 
 	<!-- Custom Fonts -->
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -102,7 +102,7 @@
 			</div>
 
 		
-<div class="image">
+
 
 			<div id="owl-slide" class="owl-carousel">
 				<div class="item">
@@ -125,19 +125,20 @@
 				</div>
 			</div>
 		
-</div>	
 
 <section class="content-box">
 			<div class="zerogrid">
 				<div class="wrap-box"><!--Start Box-->
 					<div class="row">
 
-							<form class="ng-valid ng-dirty ng-valid-parse" id="aspnetForm" onsubmit="javascript:return WebForm_OnSubmit();" action="/CostaClick/en-BZ/Pages/FrontPageIFramed.aspx?GetCleanPage=true" method="post">
-		<div id="s4-workspace">
+							
+<!-- <div class="cck-page ms-backgroundImage" id="ctl00_ctl00_pageBody"> -->
+	<form class="ng-valid ng-dirty ng-valid-parse" id="aspnetForm" onsubmit="javascript:return WebForm_OnSubmit();" action="/CostaClick/en-BZ/Pages/FrontPageIFramed.aspx?GetCleanPage=true" method="post">
+		<!-- <div id="s4-workspace"> -->
 			<div id="s4-bodyContainer">
-				<div id="ctl00_ctl00_DeltaPlaceHolderMain">
-					<div class="customWidth">
-						<div id="contentBox">
+				<!-- <div id="ctl00_ctl00_DeltaPlaceHolderMain"> -->
+					<!-- <div class="customWidth"> -->
+						<!-- <div id="contentBox"> -->
 							<div class="cck-page">
 								<div class="wrapper">
 									<div class="workspace no-padding">
@@ -147,77 +148,61 @@
 													<div class="col-xs-12 col-md-12 col-lg-12" ng-class="{'col-md-12 col-lg-12' : !frontPageSearchCtrl.viewLastBookings , 'col-md-9 col-lg-9' : frontPageSearchCtrl.viewLastBookings}">
 														<div class="panel-engine main-engine main-engine--mod">
 															<div class="panel panel-white panel-rounded">
-                								<div class="panel-heading">
-                                  <h4 class="panel-title"><b>Departures availability</b></h4>
-                                </div>
-                										<div class="panel-body">
-                  										<div class="row-flex row-engine ng-valid ng-dirty ng-valid-parse" data-ng-form="indForm">
+                												<div class="panel-heading"><h4 class="panel-title"><b>Departures availability</b></h4></div>
+                											<div class="panel-body">
+                  												<div class="row-flex row-engine ng-valid ng-dirty ng-valid-parse" data-ng-form="indForm">
                     										<div class="col-md-12 col-lg-10">
-                      										<div class="row">
+                      											<div class="row">
                         <!-- Quando -->
-                        										<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 engine-elements daterangepicker-wrapper">
-                      												<div class="form-group" data-ng-class="{'has-error': (frontPageSearchCtrl.selection.start.invalid)}">
+                        											<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 engine-elements daterangepicker-wrapper">
+                      													<div class="form-group" data-ng-class="{'has-error': (frontPageSearchCtrl.selection.start.invalid)}">
                         												<label class="control-label mini" for="searchDatepicker">When (from / to)</label>
                         <!-- ngIf: !bIsLoading -->
-	                        											<div class="form-control form-control--datepicker ng-untouched ng-valid ng-scope ng-not-empty ng-dng-valid-parse" id="searchDatepicker" type="daterange" ng-if="!bIsLoading" ng-class="{ 'select_selected' : (selected.date_range.startDate/1)>0 &amp;&amp; (selected.date_range.startDate/1 !== selected.date_range.endDate/1)}" ng-change="applyPrefetch()" ng-model="frontPageSearchCtrl.selection.date_range" placeholder="Select destination" ng-disabled="bSearchLoading" iframed="true" xxsinglepicker="true" input-date-range=""><i class="ion ion-calendar form-control--datepicker__icon"></i><span class="form-control--datepicker__placeholder">Choose when to set of&gt;</span>
-	                        											</div>
-                       	<!-- end ngIf: !bIsLoading -->
+                        													<div class="form-control form-control--datepicker ng-untouched ng-valid ng-scope ng-not-empty ng-dirty ng-valid-parse" id="searchDatepicker" type="daterange" ng-if="!bIsLoading" ng-class="{ 'select_selected' : (selected.date_range.startDate/1)>0 &amp;&amp; (selected.date_range.startDate/1 !== selected.date_range.endDate/1)}" ng-change="applyPrefetch()" ng-model="frontPageSearchCtrl.selection.date_range" placeholder="Select destination" ng-disabled="bSearchLoading" iframed="true" xxsinglepicker="true" input-date-range=""><i class="ion ion-calendar form-control--datepicker__icon"></i><span class="form-control--datepicker__placeholder">Choose when to set off ---&gt;</span>
+                        													</div>
+                        <!-- end ngIf: !bIsLoading -->
+              
                       													</div>
                     												</div>
                         <!-- Quando END -->
                         <!-- Dove -->
-			                        							<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 engine-elements select-wrapper form-group">
-																		          <label class="control-label mini" for="ind-where">Where</label>
-																		          <select tabindex="2" title="Select destination" disabled="disabled" class="form-control frontPagePicker show-tick ng-pristine ng-untouched ng-valid ng-empty disabled" id="ind-where" ng-class="{'disabled' : frontPageSearchCtrl.isPrefetching || !frontPageSearchCtrl.isDateValid}" placeholder="Where" ng-disabled="frontPageSearchCtrl.isPrefetching || !frontPageSearchCtrl.isDateValid" data-ng-options="dest.Code as dest.Name for dest in frontPageSearchCtrl.fetchedItineraries" data-ng-model="frontPageSearchCtrl.selection.itinerary" data-container="body" selectpicker-watch="frontPageSearchCtrl.fetchedItineraries"><option selected="selected" value="?"></option></select>
-																		        </div>
+                        <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 engine-elements select-wrapper form-group">
+                      <label class="control-label mini" for="ind-where">Where</label>
+                      <select tabindex="2" title="Select destination" disabled="disabled" class="form-control frontPagePicker show-tick ng-pristine ng-untouched ng-valid ng-empty disabled" id="ind-where" ng-class="{'disabled' : frontPageSearchCtrl.isPrefetching || !frontPageSearchCtrl.isDateValid}" placeholder="Where" ng-disabled="frontPageSearchCtrl.isPrefetching || !frontPageSearchCtrl.isDateValid" data-ng-options="dest.Code as dest.Name for dest in frontPageSearchCtrl.fetchedItineraries" data-ng-model="frontPageSearchCtrl.selection.itinerary" data-container="body" selectpicker-watch="frontPageSearchCtrl.fetchedItineraries"><option selected="selected" value="?"></option></select>
+                    </div>
                         <!-- Dove END-->
                         <!-- Tariffa -->
-                                            <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 engine-elements select-wrapper form-group">
-                                              <label class="control-label mini" for="ind-promo">Fare</label>
-                                              <select tabindex="3" title="Select fare" disabled="disabled" class="form-control frontPagePicker show-tick ng-pristine ng-untouched ng-valid ng-empty disabled" id="ind-promo" ng-class="{'disabled' : frontPageSearchCtrl.isPrefetching || !frontPageSearchCtrl.isDateValid}" ng-disabled="frontPageSearchCtrl.isPrefetching || !frontPageSearchCtrl.isDateValid" data-ng-options="fare.Code as fare.Name for fare in frontPageSearchCtrl.fetchedFares" data-ng-model="frontPageSearchCtrl.selection.fare" data-container="body" selectpicker-watch="frontPageSearchCtrl.fetchedFares"><option selected="selected" value="?"></option></select>
-                                            </div>
+                        <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 engine-elements select-wrapper form-group">
+                          <label class="control-label mini" for="ind-promo">Fare</label>
+                          <select tabindex="3" title="Select fare" disabled="disabled" class="form-control frontPagePicker show-tick ng-pristine ng-untouched ng-valid ng-empty disabled" id="ind-promo" ng-class="{'disabled' : frontPageSearchCtrl.isPrefetching || !frontPageSearchCtrl.isDateValid}" ng-disabled="frontPageSearchCtrl.isPrefetching || !frontPageSearchCtrl.isDateValid" data-ng-options="fare.Code as fare.Name for fare in frontPageSearchCtrl.fetchedFares" data-ng-model="frontPageSearchCtrl.selection.fare" data-container="body" selectpicker-watch="frontPageSearchCtrl.fetchedFares"><option selected="selected" value="?"></option></select>
+                        </div>
                         <!-- Tariffa END-->
                         <!-- Porto -->
-                                            <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 engine-elements select-wrapper form-group">
-                                              <label class="control-label mini" for="ind-harbour">Departure port</label>
-                                              <select tabindex="4" title="All ports" disabled="disabled" class="form-control frontPagePicker show-tick ng-pristine ng-untouched ng-valid ng-empty disabled" id="ind-harbour" ng-class="{'disabled' : frontPageSearchCtrl.isPrefetching || !frontPageSearchCtrl.isDateValid}" ng-disabled="frontPageSearchCtrl.isPrefetching || !frontPageSearchCtrl.isDateValid" data-ng-options="harbour.Code as harbour.Name for harbour in frontPageSearchCtrl.fetchedHarbours" data-ng-model="frontPageSearchCtrl.selection.harbour" data-container="body" selectpicker-watch="frontPageSearchCtrl.fetchedHarbours"><option selected="selected" value="?"></option></select>
-                                            </div>
+                        <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 engine-elements select-wrapper form-group">
+                          <label class="control-label mini" for="ind-harbour">Departure port</label>
+                          <select tabindex="4" title="All ports" disabled="disabled" class="form-control frontPagePicker show-tick ng-pristine ng-untouched ng-valid ng-empty disabled" id="ind-harbour" ng-class="{'disabled' : frontPageSearchCtrl.isPrefetching || !frontPageSearchCtrl.isDateValid}" ng-disabled="frontPageSearchCtrl.isPrefetching || !frontPageSearchCtrl.isDateValid" data-ng-options="harbour.Code as harbour.Name for harbour in frontPageSearchCtrl.fetchedHarbours" data-ng-model="frontPageSearchCtrl.selection.harbour" data-container="body" selectpicker-watch="frontPageSearchCtrl.fetchedHarbours"><option selected="selected" value="?"></option></select>
+                        </div>
                         <!-- Porto END-->
                         <!-- Nave -->
-                                            <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 engine-elements select-wrapper form-group">
-                                              <label class="control-label mini" for="ind-ship">Ship</label>
-                                              <select tabindex="5" title="All ships" disabled="disabled" class="form-control frontPagePicker show-tick ng-pristine ng-untouched ng-valid ng-empty disabled" id="ind-ship" ng-class="{'disabled' : frontPageSearchCtrl.isPrefetching || !frontPageSearchCtrl.isDateValid}" ng-disabled="frontPageSearchCtrl.isPrefetching || !frontPageSearchCtrl.isDateValid" data-ng-options="ship.Code as ship.Name for ship in frontPageSearchCtrl.fetchedShips" data-ng-model="frontPageSearchCtrl.selection.ship" data-container="body" selectpicker-watch="frontPageSearchCtrl.fetchedShips"><option selected="selected" value="?"></option></select>
-                                            </div>
+                        <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 engine-elements select-wrapper form-group">
+                          <label class="control-label mini" for="ind-ship">Ship</label>
+                          <select tabindex="5" title="All ships" disabled="disabled" class="form-control frontPagePicker show-tick ng-pristine ng-untouched ng-valid ng-empty disabled" id="ind-ship" ng-class="{'disabled' : frontPageSearchCtrl.isPrefetching || !frontPageSearchCtrl.isDateValid}" ng-disabled="frontPageSearchCtrl.isPrefetching || !frontPageSearchCtrl.isDateValid" data-ng-options="ship.Code as ship.Name for ship in frontPageSearchCtrl.fetchedShips" data-ng-model="frontPageSearchCtrl.selection.ship" data-container="body" selectpicker-watch="frontPageSearchCtrl.fetchedShips"><option selected="selected" value="?"></option></select>
+                        </div>
                         <!-- Nave END-->
                         <!-- Occupazione -->
-                        					<div class="cck-page ms-backgroundImage" id="ctl00_ctl00_pageBody">
-                                                <div class="col-xs-2 col-xs-push-10 col-sm-2 col-sm-push-10 col-md-2 col-md-push-10 col-lg-push-0 col-lg-2 btn-result-search btn-result-search--mod">
-                                                            <a tabindex="7" class="btn-searchFromFrame btn btn-block btn-costa btn-costa--yellow btn-costa--search ladda-button" data-style="zoom-in" ng-click="frontPageSearchCtrl.goToResultsFromFrame()" ng-class="{'disabled' : frontPageSearchCtrl.isPrefetching || !frontPageSearchCtrl.isDateValid}" ladda="frontPageSearchCtrl.isPrefetching"><span class="ladda-label">
-                                                              Search  
-                                                            </span><span class="ladda-spinner"></span>
-
-                                                            <div class="ladda-progress" style="width: 0px;"></div></a>
-                                                          </div>
-  
-                                          </div>
-                        					<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 engine-elements select-wrapper form-group">
-                                             <div class="cck-page ms-backgroundImage" id="ctl00_ctl00_pageBody">
-                                                <div class="col-xs-2 col-xs-push-10 col-sm-2 col-sm-push-10 col-md-2 col-md-push-10 col-lg-push-0 col-lg-2 btn-result-search btn-result-search--mod">
-                                                            <a tabindex="7" class="btn-searchFromFrame btn btn-block btn-costa btn-costa--yellow btn-costa--search ladda-button" data-style="zoom-in" ng-click="frontPageSearchCtrl.goToResultsFromFrame()" ng-class="{'disabled' : frontPageSearchCtrl.isPrefetching || !frontPageSearchCtrl.isDateValid}" ladda="frontPageSearchCtrl.isPrefetching"><span class="ladda-label">
-                                                              Search  
-                                                            </span><span class="ladda-spinner"></span>
-
-                                                            <div class="ladda-progress" style="width: 0px;"></div></a>
-                                                          </div>
-  
-                                          </div>
-                                            </div>
-                                            
+                        <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 engine-elements select-wrapper form-group">
+                          <label class="control-label mini" for="ind-occupancy">Display prices for</label>
+                          <select tabindex="6" title="Select cabin occupancy" disabled="disabled" class="form-control frontPagePicker show-tick ng-pristine ng-untouched ng-valid ng-empty disabled" id="ind-occupancy" ng-class="{'disabled' : frontPageSearchCtrl.isPrefetching || !frontPageSearchCtrl.isDateValid}" ng-disabled="frontPageSearchCtrl.isPrefetching || !frontPageSearchCtrl.isDateValid" data-ng-options="occupancy.Code as occupancy.Name group by occupancy.Group for occupancy in frontPageSearchCtrl.fetchedOccupancies track by occupancy.Code" data-ng-model="frontPageSearchCtrl.selection.occupancy" data-container="body" selectpicker-watch="frontPageSearchCtrl.fetchedOccupancies"><option selected="selected" value="?"></option></select>
+                        </div>
                         <!-- Occupazione END-->
                       </div>
                     </div>
                     <!-- CTA -->
-                    
+                    <div class="col-xs-2 col-xs-push-10 col-sm-2 col-sm-push-10 col-md-2 col-md-push-10 col-lg-push-0 col-lg-2 btn-result-search btn-result-search--mod">
+                      <a tabindex="7" class="btn-searchFromFrame btn btn-block btn-costa btn-costa--yellow btn-costa--search disabled ladda-button" data-style="zoom-in" ng-click="frontPageSearchCtrl.goToResultsFromFrame()" ng-class="{'disabled' : frontPageSearchCtrl.isPrefetching || !frontPageSearchCtrl.isDateValid}" ladda="frontPageSearchCtrl.isPrefetching"><span class="ladda-label">
+                        Search
+                      </span><span class="ladda-spinner"></span></a>
+                    </div>
                     <!-- CTA END -->
               
                     <!-- include pdf_downloader.html -->
@@ -231,8 +216,8 @@
               
                   </div><!-- .row -->
                 </div>
-              </div></div></div></div></div></div></div></div></div></div></div></div></div></div>
-              </form>
+              </div></div></div></div></div></div></div></div></div></div></div></div></div></div></form></div>
+
 						
 
 					</div>
@@ -684,7 +669,7 @@
 							          <li><b>Коммерческий курс:</b>
 									  <br><i class="fa fa-dollar" aria-hidden="true"></i>26.88
 									  <br><i class="fa fa-euro" aria-hidden="true"></i>31.52<br>
-									  <span class="italic">Курс валют рассчитан на основе данных, взятых с </span> <a href="http://privatbank.ua" target="_blank">сайта ПриватБанка  <i class="fa fa-credit-card" aria-hidden="true"></i></a></li>
+									  Курс валют рассчитан на основе данных, взятых с сайта <br> <a href="http://privatbank.ua" target="_blank"> ПриватБанка  <i class="fa fa-credit-card" aria-hidden="true"></i></a></li>
 							        </ul>
 						</div>
 					</div>
